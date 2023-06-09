@@ -8,4 +8,7 @@
         margin-right: 0;
         margin-bottom: 10px;
     }
+    main {
+        grid-template-columns: 1fr;
+    }
 }

@@ -1,3 +1,5 @@
+
+/*This our navigation bar section and it containts the home, chamber, site plan, survery*/
 nav {
     background-color: #000;
     color: #fff;
@@ -22,6 +24,41 @@ nav ul li a {
     padding: 10px;
 }
 
+/*--------------------------------------------------------------------------------------------------*/
+
+
+/*This is our main body and contains the lesson plans and links within a side by side grid*/
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-container section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
+
+
+h2, main {
+    border-bottom: solid darkgrey;
+}
+
 body {
     min-width: 640px;
     max-width: 1200px;
@@ -29,6 +66,10 @@ body {
     background-color: lightgray;
 }
 
+/*--------------------------------------------------------------------------------------------------*/
+
+
+/*This is our header section it containts the image of me and my name*/
 header {
     background-color: navy;
     background-image: linear-gradient(navy, #6564DB);
@@ -52,11 +93,14 @@ h1, h2 {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-ul {
-    font-family: 'Ysabeau', sans-serif;
-    font-size: 32px;
-    padding-left: 48px;
+h2 {
+    padding-left: 16px;
 }
+
+/*--------------------------------------------------------------------------------------------------*/
+
+
+/*this is my footer section and it contains the getDate file along with my name and state*/
 
 footer {
     background-color: navy;
@@ -73,7 +117,7 @@ footer p {
     color: blanchedalmond;
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 7px;
+    font-size: 10px;
 }
 
 
@@ -81,10 +125,4 @@ footer p {
     color: coral;
 }
 
-h2, main {
-    border-bottom: solid darkgrey;
-}
-
-h2 {
-    padding-left: 16px;
-}
+/*--------------------------------------------------------------------------------------------------*/
