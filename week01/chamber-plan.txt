@@ -1,0 +1,9 @@
+Devils Icebox chamber of Commerce site plan
+
+I want to create an outdoorsy feel so I used two different shades of yellow to get that and I also wanted to add some filler text so I could get a sense 
+for how things are going to lay out. I didn't add wireframe but I think I understand how to add that in the future so that will come later. for now I will
+not change the font but that may come later. 
+
+I think that most users coming to the site will want to be able to lookup special events and times that it is opening so I will create places for hyperlinks to
+those pages so they can easily find them. I also want tell a little bit about the community and the types of businesses we are protecting and advocating for.
+
