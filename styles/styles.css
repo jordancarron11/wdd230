@@ -36,7 +36,6 @@ nav ul li a:hover {
 
 .main {
     display: grid;
-    grid-template-columns: 1fr;
     gap: 20px;
   }
   
@@ -56,13 +55,24 @@ nav ul li a:hover {
       grid-template-columns: 1fr;
     }
   }
-  
-
 
 
 h2, main {
     border-bottom: solid darkgrey;
+    text-align: center;
 }
+
+h3, main {
+    border-bottom: solid darkgrey;
+    text-align: center;
+}
+
+section {
+    border: 1px solid black;
+    padding: 10px;
+    border-color: #000;
+    text-align: left;
+  }
 
 body {
     min-width: 640px;
